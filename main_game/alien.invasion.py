@@ -7,7 +7,7 @@ class AlienInvasion:
     # manage game assets and resources
     def __init__(self):
         pygame.init()
-        self.screen = pygame.display.set.mode((1200, 800))
+        self.screen = pygame.display.set_mode((1200, 800))
         pygame.display.set_caption("Alien Invasion")
 
     def run_game(self):
